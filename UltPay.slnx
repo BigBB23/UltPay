@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="UltPay.Api/UltPay.Api.csproj" />
+  <Project Path="UltPay.Application/UltPay.Application.csproj" />
+  <Project Path="UltPay.Contracts/UltPay.Contracts.csproj" />
+  <Project Path="UltPay.Domain/UltPay.Domain.csproj" />
+  <Project Path="UltPay.Infrastructure/UltPay.Infrastructure.csproj" />
+</Solution>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstrations\" />
+    <Folder Include="Common\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Features\Beneficiaries\" />
+    <Folder Include="Features\Transfers\" />
+    <Folder Include="Features\Quotes\" />
+    <Folder Include="Features\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UltPay.Contracts\UltPay.Contracts.csproj" />
+    <ProjectReference Include="..\UltPay.Domain\UltPay.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
