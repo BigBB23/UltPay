@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Dockerfile" />
+  </Folder>
   <Project Path="UltPay.Api/UltPay.Api.csproj" />
   <Project Path="UltPay.Application/UltPay.Application.csproj" />
   <Project Path="UltPay.Contracts/UltPay.Contracts.csproj" />
