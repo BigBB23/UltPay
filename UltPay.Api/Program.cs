@@ -31,8 +31,7 @@ builder.Services.AddHttpClient<FlutterwaveTransferProvider, FlutterwaveTransferP
 builder.Services.AddScoped<ITransferProviderResolver, TransferProviderResolver>();
 
 //builder.Services.AddHostedService<TransferProcessorService>();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 builder.Services.AddScoped<ITransferExecutionService, TransferExecutionService>();
 
 builder.Services.AddScoped<ITransferProvider, FlutterwaveTransferProvider>();
@@ -59,8 +58,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 }
 
 app.UseHttpsRedirection();
